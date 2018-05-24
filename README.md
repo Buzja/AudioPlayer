@@ -1,4 +1,1 @@
-# AudioPlayer
-# AudioPlayer
-# PlayerJs
-# AudioPlayer
+# Simple audio player on JS
