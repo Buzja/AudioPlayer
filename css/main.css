@@ -1,0 +1,78 @@
+.player{
+  margin-top: 10px;
+  text-align: center;
+}
+#prev:hover{
+color: #6cedca;
+}
+#next:hover{
+color: #6cedca;
+}
+#repeat:hover{
+color: #6cedca;
+}
+#repeat{
+  font-size: 25px;
+  cursor: pointer;
+}
+#prev{
+  font-size: 25px;
+  cursor: pointer;
+}
+#next{
+  font-size: 25px;
+  cursor: pointer;
+}
+#currentSong{
+  color: #666;
+  padding-top: 26px;
+  font-size: 25px;
+}
+.fa-list{
+  font-size: 25px;
+}
+body{
+  padding-bottom: 70px;
+}
+.player-playlist{
+  text-align: center;
+}
+#playlist{
+  list-style: none;
+}
+#playlist li a{
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+}
+#playlist .current-song a{
+  background-color: #ccc;
+}
+.navbar-nav>li {
+    padding-top: 20px;
+}
+
+/*Animation hanburer*/
+.navbar-toggle {
+  border: none;
+  background: transparent !important;
+}
+.navbar-toggle:hover {
+  background: transparent !important;
+}
+.navbar-toggle .icon-bar {
+  width: 22px;
+  transition: all 0.2s;
+}
+.navbar-toggle .icon-bar:nth-of-type(2) {
+  opacity: 0;
+}
+.navbar-toggle .icon-bar:nth-of-type(3) {
+  opacity: 0;
+}
+.navbar-toggle.collapsed .icon-bar:nth-of-type(2) {
+  opacity: 1;
+}
+.navbar-toggle.collapsed .icon-bar:nth-of-type(3) {
+  opacity: 1;
+}
